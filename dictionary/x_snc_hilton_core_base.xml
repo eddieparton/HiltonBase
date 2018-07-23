@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Base" max_length="40" name="x_snc_hilton_core_base" type="collection">
+        <element label="Author" max_length="32" name="author" reference="sys_user" type="reference"/>
+        <element label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element label="Hotel Name" max_length="40" name="hotel_name" reference="x_snc_hilton_core_hotel" type="reference"/>
+    </element>
+</database>

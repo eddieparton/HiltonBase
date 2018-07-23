@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Room Amenities" max_length="40" name="x_snc_hilton_core_room_amenities" type="collection">
+        <element display="true" label="Amemity" max_length="40" name="amemity" type="string"/>
+    </element>
+</database>

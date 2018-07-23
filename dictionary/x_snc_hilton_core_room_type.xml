@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Room Type" max_length="40" name="x_snc_hilton_core_room_type" type="collection">
+        <element label="Original Description" max_length="4000" name="original_description" type="string"/>
+        <element display="true" label="Room Type" max_length="40" name="room_type" type="string"/>
+        <element choice="1" label="Service Level" max_length="40" name="service_level" type="choice">
+            <choice>
+                <element label="Standard" sequence="10" value="standard"/>
+                <element label="Accessible" sequence="20" value="accessible"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="120" name="short_description" type="string"/>
+        <element label="Updated Description" max_length="4000" name="updated_description" type="string"/>
+    </element>
+</database>

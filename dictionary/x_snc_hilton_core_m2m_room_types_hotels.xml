@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Hilton Core M2m Room Types Hotels" max_length="40" name="x_snc_hilton_core_m2m_room_types_hotels" type="collection">
+        <element label="Hotel" max_length="32" name="hotel" reference="x_snc_hilton_core_hotel" type="reference"/>
+        <element label="Room Type" max_length="32" name="room_type" reference="x_snc_hilton_core_room_type" type="reference"/>
+        <index name="index">
+            <element name="hotel"/>
+        </index>
+        <index name="index2">
+            <element name="room_type"/>
+        </index>
+    </element>
+</database>
